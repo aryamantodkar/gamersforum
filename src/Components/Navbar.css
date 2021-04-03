@@ -1,0 +1,14 @@
+.navnav{
+    background-color: #252222;
+    min-width: 100vw;
+    max-width: 100vw;
+    box-shadow:0 7px 15px -10px rgba(0, 225, 255, 0.5);
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+.navbar-brand>h1{
+    font-weight: 450;
+    color: white;
+    font-size: 25px;
+    padding-left: 20px;
+}

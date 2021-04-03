@@ -1,0 +1,97 @@
+.Body{
+    display: flex;
+    padding: 20px;
+    margin: 20px;
+    min-width: 97vw;
+    max-width: 97vw;
+    /* background-color: #2a2c2c; */
+    overflow: hidden;
+    
+}
+.Body>.Sidebar{
+    flex: 0.20;
+    width: 97vw;
+    min-height: 100vh;
+    margin: 10px;
+    box-shadow:0 7px 40px -10px rgba(0, 225, 255, 0.5);
+    font-size: 30px;
+    font-weight: 500;
+    padding: 25px;
+    color: white;
+    background-color: #252222;
+    border-radius: 15px;
+}
+.Body>.Mainbody{
+    flex: 0.80;
+    width: 100vw;
+    min-height: 100vh;
+    margin: 10px;
+    box-shadow:0 7px 30px -10px rgba(0, 225, 255, 0.5);
+}
+.Body>.Mainbody>.header>.header-span>h1{
+    font-size: 30px;
+    font-weight: 500;
+    padding: 25px;
+    color: white;
+}
+.Body>.Mainbody>.header>.header-span2>h1{
+    font-size: 30px;
+    font-weight: 500;
+    padding: 25px;
+    color:white;
+}
+.Body>.Mainbody>.header{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.Body>.Sidebar>h1{
+    font-weight: 450;
+    padding-bottom: 110px;
+}
+
+.Body>.Sidebar>.name>h1{
+    padding-bottom: 20px;
+}
+.Body>.Sidebar>.name>h2{
+    padding-bottom: 20px;
+}
+.loginerror>.loginmessage{
+    padding: 20px;
+    font-weight: 450;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    padding-top: 15%;
+    color: white;
+}
+.loginerror>.loginbtn>button{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 47%;
+    outline: none;
+    font-size: 25px;
+    border: none;
+    border-radius: 20px;
+    background-color:rgb(36, 130, 253);
+    color: white;
+    border: none;
+    font-weight: 550;
+    cursor: pointer;
+    text-decoration: none;
+}
+.loginerror>.loginbtn>button>a{
+    text-decoration: none;
+    border: none;
+    color: white;
+    background-color:rgb(36, 130, 253);
+}
+.Body>.Mainbody{
+    background-color: #252222;
+    border-radius: 15px;
+}
+.Body{
+    margin-right: 0px;
+}

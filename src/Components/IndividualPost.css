@@ -1,0 +1,114 @@
+.main-content{
+    min-height: 70vh;
+    max-height: 70vh;
+    min-width: 60vw;
+    max-width: 60vw;
+    margin-left: 22%;
+    margin-right: 35%;
+    margin-top: 6%;
+    margin-bottom: 6%;
+    background-color: #373d3d;
+    box-shadow:0 7px 30px -10px rgba(0, 225, 255, 0.5);
+    /* border: solid 0.00005px rgb(149, 241, 241); */
+    border-radius: 20px;
+}
+.post-content{
+    display: grid;
+    grid-template-rows: auto;
+    padding: 20px;
+    padding-left: 35px;
+}
+.post-content>.container-1>.post-header>h1{
+    font-weight: 450;
+    padding-bottom: 10px;
+    color:rgb(27, 181, 252);
+}
+.post-content>.container-2>.post-header>h1{
+    font-weight: 450;
+    padding-bottom: 10px;
+    color:rgb(27, 181, 252);
+}
+.post-content>.container-3>.post-header>h1{
+    font-weight: 450;
+    padding-bottom: 10px;
+    color:rgb(27, 181, 252);
+}
+.post-content>.container-1>.post-title>h1{
+    font-weight: 350;
+    font-size: 25px;
+    text-transform: uppercase;
+    color:rgb(27, 181, 252);
+}
+.post-content>.container-2>.post-snippet>h1{
+    font-weight: 350;
+    font-size: 25px;
+    color:rgb(27, 181, 252);
+}
+.post-content>.container-3>.post-body>h1{
+    font-weight: 350;
+    font-size: 25px;
+    color:rgb(27, 181, 252);
+}
+.main-content{
+    display: flex;
+    justify-content: space-between;
+}
+.side-content{
+    color:rgb(27, 181, 252);
+    padding-right: 20%;
+    padding-top: 20%;
+    padding-bottom: 20%;
+    justify-self: center;
+}
+.side-content>.header{
+    padding-bottom: 15%;
+    font-weight: 450;
+    font-size: 40px;
+}
+.main-content>.side-content>.allposts-btn{
+    padding: 20px;
+    border-radius: 15px;
+    font-size: 15px;
+    outline: none;
+    border: none;
+    color: white;
+    background-color:rgb(27, 181, 252);
+    font-weight: 600;
+    box-shadow:0 7px 30px -10px rgba(0, 225, 255, 0.5);
+    cursor: pointer;
+    margin-left: 17px;
+    font-weight: 550;
+    font-size: 20px;
+}
+.loginerror>.loginmessage{
+    padding: 20px;
+    font-weight: 450;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    padding-top: 15%;
+    color: white;
+}
+.loginerror>.loginbtn>button{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 47%;
+    outline: none;
+    font-size: 25px;
+    border: none;
+    border-radius: 20px;
+    background-color:rgb(36, 130, 253);
+    color: white;
+    border: none;
+    font-weight: 550;
+    cursor: pointer;
+    text-decoration: none;
+}
+.loginerror>.loginbtn>button>a{
+    text-decoration: none;
+    border: none;
+    color: white;
+    background-color:rgb(36, 130, 253);
+}

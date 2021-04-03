@@ -1,0 +1,53 @@
+.Posts{
+    padding: 25px;
+    padding-top: 10px;
+    /* background-color: red; */
+    margin-left: 25px;
+    margin-right: 25px;
+    box-shadow:0 7px 15px -10px rgba(0, 225, 255, 0.5);
+    margin-bottom: 45px;
+    color: white;
+    /* background-color: rgb(27, 26, 26); */
+    /* background-color: #373d3d; */
+    background-color: #303535;
+    border-radius: 15px;
+}
+.Posts>.title>span{
+    font-size: 28px;
+    font-weight: 450;
+    padding-bottom: 10px;
+}
+.Posts>.postbody{
+    padding-bottom: 10px;
+    font-size: 21px;
+    font-weight: 350;
+}
+.Posts>.title{
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.Posts>.title>span{
+    padding-top: 10px;
+    color:rgb(27, 181, 252);
+}
+.Posts>.title>.icons>.edit{
+    outline-width: 0;
+}
+.Posts>.title>.icons>.delete{
+    outline-width: 0;
+}
+.Posts>.snippet{
+    padding-bottom: 30px;
+    font-size: 21px;
+    font-weight: 350;
+    color:rgb(27, 181, 252);
+}
+.Posts>.title>span>a{
+    color:rgb(27, 181, 252);
+    font-size: 28px;
+    font-weight: 450;
+}
+.Posts>.postbody{
+    color:rgb(27, 181, 252);
+}

@@ -1,0 +1,171 @@
+.create-content>.form-header>h2{
+    text-align: center;
+    font-weight: 450;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    color:rgb(36, 130, 253);
+}
+.create-content{
+    min-height: 70vh;
+    box-shadow:0 7px 30px -10px rgba(0, 225, 255, 0.5);
+    margin-left: 20%;
+    margin-right: 30%;
+    margin-top: 5%;
+    min-width: 65vw;
+    max-width: 65vw;
+    margin-bottom: 5%;
+    padding-top: 45px;
+}
+.create-content>.form>.container2{
+    display: grid;
+    grid-template-rows: auto;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.create-content>.form>.container2>input{
+    min-width: 30vw;
+    max-width: 30vw;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid rgb(36, 130, 253);
+}
+.create-content>.form>.container3{
+    display: grid;
+    grid-template-rows: auto;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 100px;
+    padding-left: 20px;
+}
+.create-content>.form>.container3>.container-flex>input{
+    min-width: 30vw;
+    max-width: 30vw;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid blue;
+}
+/* .create-content>.form>.container3>.textarea{
+    min-width: 30vw;
+    max-width: 30vw;
+    min-height: 20vh;
+    max-height: 20vh;
+    outline: none;
+    border: 2px solid black;
+    border-radius: 5px;
+} */
+.create-content>.form>.container4{
+    display: grid;
+    grid-template-rows: auto;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+.create-content>.form>.container2>label{
+    font-weight: 450;
+    font-size: 30px;
+    color:rgb(36, 130, 253);
+}
+.create-content>.form>.container3>label{
+    font-weight: 450;
+    font-size: 30px;
+    color:rgb(36, 130, 253);
+}
+.create-content>.form>.container4>label{
+    font-weight: 450;
+    font-size: 30px;
+    color:rgb(36, 130, 253);
+}
+.create-content>.form>.container1>label{
+    font-weight: 450;
+    font-size: 30px;
+    color:rgb(36, 130, 253);
+}
+.create-content>.form>.container4>.button2{
+    border-radius: 20px;
+    font-size: 20px;
+    padding: 5px;
+    background-color:rgb(36, 130, 253);
+    color: white;
+    padding-left: 40px;
+    padding-right: 40px;
+    outline: none;
+    border: none;
+    font-weight: 550;
+    cursor: pointer;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+    width: auto;
+}
+.create-content>.form>.container4>.button1{
+    border-radius: 20px;
+    font-size: 20px;
+    padding: 5px;
+    background-color:rgb(36, 130, 253);
+    color: white;
+    padding-left: 40px;
+    padding-right: 40px;
+    outline: none;
+    border: none;
+    font-weight: 550;
+    cursor: pointer;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+    width: auto;
+}
+.create-content>.form{
+    min-width: 20vw;
+    max-width: 60vw;
+}
+.create-content>.form>.container4{
+    display: flex;
+}
+.create-content>.form>.container4>.button2>a{
+    text-decoration: none;
+    border: none;
+    color: white;
+    background-color:rgb(36, 130, 253);
+}
+.create-content>.form>.container1>label{
+    color:rgb(27, 181, 252);
+}
+.create-content>.form>.container1>input{
+    border-width:0px;
+    border:none;
+    outline:none;
+    background-color: #373d3d;
+    border-bottom: 3px solid rgb(27, 181, 252);
+    color:rgb(27, 181, 252);
+}
+.create-content>.form>.container1>input::placeholder{
+    color:rgb(27, 181, 252);
+}
+.create-content>.form>.container1{
+    display: grid;
+    grid-template-rows: auto;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.create-content>.form>.container1>input{
+    min-width: 30vw;
+    max-width: 30vw;
+    border-width:0px;
+    border:none;
+    outline:none;
+    background-color: #373d3d;
+    border-bottom: 3px solid rgb(27, 181, 252);;
+    color:rgb(27, 181, 252);
+}
+.create-content{
+    overflow: hidden;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    padding-top: 0px;
+}
+.create-content>.form-header{
+    margin-bottom: -5px;
+}
