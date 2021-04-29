@@ -26,7 +26,7 @@ function Create(props){
     }
     if(token){
         return(
-            <div className='createcontent'>
+            <div className='createformcontent'>
                 <div className='formheader'>
                     <h2>New Post</h2>
                 </div>

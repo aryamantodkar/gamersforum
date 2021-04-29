@@ -51,3 +51,13 @@
 .Posts>.postbody{
     color:rgb(27, 181, 252);
 }
+
+.title{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    vertical-align: middle;
+}
+.icons{
+    vertical-align: middle;
+}

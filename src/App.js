@@ -59,8 +59,8 @@ function App() {
                       <Edit getpost={getpost} setGetpost={setGetpost}/>
                   </Route>
                   <Route exact path='/'>
-                    <Navbar/>
-                    <Body getpost={getpost} setGetpost={setGetpost} email={email}/>
+                      <Navbar/>
+                      <Body getpost={getpost} setGetpost={setGetpost} email={email}/>
                   </Route>
                   <Route exact path='/create'>
                     <Navbar/>

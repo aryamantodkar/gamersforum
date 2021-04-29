@@ -1,14 +1,12 @@
-.createcontent>.form-create>.container-1{
-    display: grid;
-    grid-template-rows: auto;
+.createformcontent>.form-create>.container-1{
+    display:flex;
+    flex-direction:column;
     justify-content: center;
     padding-top: 20px;
     color:rgb(27, 181, 252);
 }
-.createcontent>.form-create>.container-1>input{
-    min-width: 30vw;
-    max-width: 30vw;
-
+.createformcontent>.form-create>.container-1>input{
+    width: 100%;
     border-width:0px;
     border:none;
     outline:none;
@@ -16,37 +14,37 @@
     border-bottom: 3px solid rgb(27, 181, 252);;
     color:rgb(27, 181, 252);
 }
-.createcontent>.formheader>h2{
+.createformcontent>.formheader>h2{
     text-align: center;
     font-weight: 450;
     padding-bottom: 5px;
     padding-top: 30px;
     color:rgb(27, 181, 252);
 }
-.createcontent{
-    min-height: 70vh;
+.createformcontent{
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+    height: 100%;
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 30px;
     box-shadow:0 7px 30px -10px rgba(0, 225, 255, 0.5);
-    margin-left: 25%;
-    margin-right: 25%;
-    margin-top: 2%;
-    margin-bottom: 5%;
+    margin: auto;
     background-color: #373d3d;
 }
-.createcontent>.form-create>.container-2{
-    display: grid;
-    grid-template-rows: auto;
+.createformcontent>.form-create>.container-2{
+    display:flex;
+    flex-direction:column;
     justify-content: center;
     padding-top: 20px;
     color:rgb(27, 181, 252);
 }
-.createcontent>.form-create>.container-2>input{
-    min-width: 30vw;
-    max-width: 30vw;
+.createformcontent>.form-create>.container-2>input{
+    width: 100%;
     outline: none;
     border: none;
     border-bottom: 2px solid black;
-
-
     border-width:0px;
     border:none;
     outline:none;
@@ -54,46 +52,46 @@
     border-bottom: 3px solid rgb(27, 181, 252);
     color:rgb(27, 181, 252);
 }
-.createcontent>.form-create>.container-3{
-    display: grid;
-    grid-template-rows: auto;
+.createformcontent>.form-create>.container-3{
+    display:flex;
+    flex-direction:column;
     justify-content: center;
     padding-top: 20px;
     
 }
-.createcontent>.form-create>.container-3>.textarea{
-    min-width: 30vw;
-    max-width: 30vw;
-    min-height: 20vh;
-    max-height: 20vh;
+.createformcontent>.form-create>.container-3>.textarea{
+    width: 100%;
+    height: 200px;
+    
+    /* height: 100%; */
     outline: none;
     border: 2px solid rgb(27, 181, 252);
     border-radius: 5px;
 }
-.createcontent>.form-create>.container-4{
-    display: grid;
-    grid-template-rows: auto;
+.createformcontent>.form-create>.container-4{
+    display:flex;
+    flex-direction:column;
     justify-content: center;
     padding-top: 30px;
 }
-.createcontent>.form-create>.container-1>label{
+.createformcontent>.form-create>.container-1>label{
     font-weight: 450;
     font-size: 30px;
     color:rgb(27, 181, 252);
 }
-.createcontent>.form-create>.container-2>label{
+.createformcontent>.form-create>.container-2>label{
     font-weight: 450;
     font-size: 30px;
 }
-.createcontent>.form-create>.container-3>label{
+.createformcontent>.form-create>.container-3>label{
     font-weight: 450;
     font-size: 30px;
 }
-.createcontent>.form-create>.container-4>label{
+.createformcontent>.form-create>.container-4>label{
     font-weight: 450;
     font-size: 30px;
 }
-.createcontent>.form-create>.container-4>button{
+.createformcontent>.form-create>.container-4>button{
 
     border-radius: 20px;
     font-size: 20px;
@@ -106,14 +104,14 @@
     border: none;
     font-weight: 550;
     cursor: pointer;
-    margin-left: 10px;
-    margin-right: 10px;
+    /* margin-left: 10px;
+    margin-right: 10px; */
     text-decoration: none;
 }
-.createcontent>.form-create{
-    min-width: 50vw;
-    max-width: 60vw;
-}
+/* .createformcontent>.form-create{
+    margin-left: auto;
+    margin-right: auto;
+} */
 .loginerror>.loginmessage{
     padding: 20px;
     font-weight: 450;
@@ -146,19 +144,80 @@
     color: white;
     background-color:rgb(27, 181, 252);
 }
-.createcontent>.form-create>.container-3>label{
+.createformcontent>.form-create>.container-3>label{
     color:rgb(27, 181, 252);
 }
-.createcontent>.form-create>.container-3>textarea::placeholder{
+.createformcontent>.form-create>.container-3>textarea::placeholder{
     color:rgb(27, 181, 252);
 }
-.createcontent>.form-create>.container-3>textarea{
+.createformcontent>.form-create>.container-3>textarea{
     background-color: #373d3d;
     border: white;
     outline: white;
     color:rgb(27, 181, 252);
 }
-.createcontent{
-    margin-top: 5%;
+.createformcontent{
+    margin-top: 100px;
+    padding-bottom: 25px;
+    margin-bottom: auto;
     border-radius: 20px;
+}
+.container-1{
+    margin-left: auto;
+    margin-right: auto;
+    width: 473px;
+}
+.container-2{
+    margin-left: auto;
+    margin-right: auto;
+    width: 473px;
+}
+.container-3{
+    margin-left: auto;
+    margin-right: auto;
+    width: 473px;
+}
+.container-4{
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+}
+.container-4>button{
+    margin-left: auto;
+    margin-right: auto;
+}
+@media(max-width:900){
+    .createformcontent{
+        display: flex;
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: auto;
+        margin-bottom: auto;
+        width: 250px;
+    }
+    .container-1{
+        margin-left: auto;
+        margin-right: auto;
+        width: 273px;
+    }
+    .container-2{
+        margin-left: auto;
+        margin-right: auto;
+        width: 273px;
+    }
+    .container-3{
+        margin-left: auto;
+        margin-right: auto;
+        width: 273px;
+    }
+    .container-4{
+        margin-left: auto;
+        margin-right: auto;
+        width: 50px;
+    }
+    .container-4>button{
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
