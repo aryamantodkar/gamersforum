@@ -53,33 +53,35 @@ function Edit(props){
     }
     if(token){
         return(
-            <div className='createformcontent'>
-                <div className='formheader'>
-                    <h2>Edit Post</h2>
+            <div className='edit-page'>
+                <div className='createformcontent'>
+                    <div className='formheader'>
+                        <h2>Edit Post</h2>
+                    </div>
+                    <form className='form-create' onSubmit={submitHandler} method='POST' action='/'>
+                        <div className='container-1'>
+                            <label for='title'>Title</label>
+                            <input value={edittitle} onChange={(e)=>{
+                                setEdittitle(e.target.value)
+                            }} placeholder='Enter Post Title'/>
+                        </div>
+                        <div className='container-2'>
+                            <label for='snippet'>Description</label>
+                            <input value={editsnippet} onChange={(e)=>{
+                                setEditsnippet(e.target.value)
+                            }} placeholder='Enter Post Snippet'/>
+                        </div>
+                        <div className='container-3'>
+                            <label for='form-body'>Body</label>
+                            <textarea value={editbody} onChange={(e)=>{
+                                setEditbody(e.target.value)
+                            }} className='textarea' placeholder='Enter Post Body'/>
+                        </div>
+                        <div className='container-4'>
+                            <button type='submit'>POST</button>
+                        </div>
+                    </form>
                 </div>
-                <form className='form-create' onSubmit={submitHandler} method='POST' action='/'>
-                    <div className='container-1'>
-                        <label for='title'>Title</label>
-                        <input value={edittitle} onChange={(e)=>{
-                            setEdittitle(e.target.value)
-                        }} placeholder='Enter Post Title'/>
-                    </div>
-                    <div className='container-2'>
-                        <label for='snippet'>Description</label>
-                        <input value={editsnippet} onChange={(e)=>{
-                            setEditsnippet(e.target.value)
-                        }} placeholder='Enter Post Snippet'/>
-                    </div>
-                    <div className='container-3'>
-                        <label for='form-body'>Body</label>
-                        <textarea value={editbody} onChange={(e)=>{
-                            setEditbody(e.target.value)
-                        }} className='textarea' placeholder='Enter Post Body'/>
-                    </div>
-                    <div className='container-4'>
-                        <button type='submit'>POST</button>
-                    </div>
-                </form>
             </div>
         )
     }
