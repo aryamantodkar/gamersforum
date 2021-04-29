@@ -225,6 +225,8 @@
         flex-direction: column;
         width: 250px;
         width: 100%;
+        vertical-align: middle;
+        justify-content: center;
     }
     input{
         display: flex;

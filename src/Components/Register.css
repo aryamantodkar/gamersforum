@@ -276,6 +276,8 @@ input{
         flex-direction: column;
         max-width: 550px;
         width: 100%;
+        vertical-align: middle;
+        justify-content: center;
     }
     input{
         display: flex;
