@@ -10,7 +10,6 @@
 .create-content-login>.form-login>.container3-login{
     display:flex;
     flex-direction: column;
-    justify-content: center;
     padding-top: 20px;
     padding-bottom: 50px;
     padding-left: 20px;
@@ -23,7 +22,7 @@
     margin-left: auto;
     margin-right: auto;
     outline: none;
-    border: none;
+    /* border: none; */
     border-bottom: 2px solid black;
 }
 
@@ -123,14 +122,13 @@
 .create-content-login>.form-login>.container3-login>.container-flex>input::placeholder{
     color:rgb(27, 181, 252);
 }
-.create-content-login{
+/* .create-content-login{
     display: flex;
     flex-direction: column;
-    vertical-align: middle;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 10px;
-}
+} */
 /* .create-content-login>.form-header-login{
     margin-bottom: -5px;
     min-width: 20vw;
@@ -169,7 +167,6 @@
 .create-content-login>.form-login>.container2-login{
     display:flex;
     flex-direction: column;
-    justify-content: center;
     padding-top: 20px;
     padding-bottom: 50px;
     padding-left: 20px;
@@ -216,8 +213,10 @@
     border-radius: 25px;
     vertical-align: middle;
 }
-.create-content-login{
-    margin-top: 170px;
+.login-page{
+    margin-top: 230px;
+    margin-bottom: 340px;
+    vertical-align: middle;
 }
 @media(max-width:800px){
     .create-content-login{
@@ -227,6 +226,8 @@
         width: 100%;
         vertical-align: middle;
         justify-content: center;
+        margin-top: auto;
+        margin-bottom: auto;
     }
     input{
         display: flex;
@@ -234,5 +235,12 @@
     button{
         display: flex;
         justify-content: center;
+    }
+    .login-page{
+        margin-top: 110px;
+        margin-bottom: 200px;
+        margin-left: 60px;
+        margin-right: 60px;
+        vertical-align: middle;
     }
 }

@@ -57,37 +57,39 @@ function Register(){
             })
     }
     return(
-        <div className='create-content-register'>
-            <div className='form-header-register'>
-                <h2>Register</h2>
+        <div className='register-page'>
+            <div className='create-content-register'>
+                <div className='form-header-register'>
+                    <h2>Register</h2>
+                </div>
+                <form className='form-register' onSubmit={submitHandler} method='POST' action='/'>
+                    <div className='container1-register'>
+                        <label for='title-login'>Name</label>
+                        <input value={name} onChange={(e)=>{
+                            setName(e.target.value)
+                        }} placeholder='Enter Your Name'/>
+                    </div>
+                    <div className='container2-register'>
+                        <label for='snippet'>Email</label>
+                        <input value={email} onChange={(e)=>{
+                            setEmail(e.target.value)
+                        }} placeholder='Enter Your Email'/>
+                    </div>
+                    <div className='container3-register'>
+                            <label for='form-body-register'>Password</label>
+                            <div className='container-flex-password'>
+                                <input value={password} onChange={(e)=>{
+                                    setPassword(e.target.value)
+                                }} placeholder='Enter Your Password' type={isvisible ? 'text' : 'password'} className='password'/>
+                                <span className='visible' onClick={passwordvisible} >{isvisible ? <VisibilityOffIcon  style={{color:"rgb(27, 181, 252)"}}/> : <VisibilityIcon  style={{color:"rgb(27, 181, 252)"}}/> }</span>
+                            </div>
+                    </div>
+                    <span className='container4-register'>
+                        <button type='submit' className='button1'>Sign Up</button>
+                        <button type='button' className='button2' onClick={redirect}>Sign In</button>
+                    </span>
+                </form>
             </div>
-            <form className='form-register' onSubmit={submitHandler} method='POST' action='/'>
-                <div className='container1-register'>
-                    <label for='title-login'>Name</label>
-                    <input value={name} onChange={(e)=>{
-                        setName(e.target.value)
-                    }} placeholder='Enter Your Name'/>
-                </div>
-                <div className='container2-register'>
-                    <label for='snippet'>Email</label>
-                    <input value={email} onChange={(e)=>{
-                        setEmail(e.target.value)
-                    }} placeholder='Enter Your Email'/>
-                </div>
-                <div className='container3-register'>
-                        <label for='form-body-register'>Password</label>
-                        <div className='container-flex-password'>
-                            <input value={password} onChange={(e)=>{
-                                setPassword(e.target.value)
-                            }} placeholder='Enter Your Password' type={isvisible ? 'text' : 'password'} className='password'/>
-                            <span className='visible' onClick={passwordvisible} >{isvisible ? <VisibilityOffIcon  style={{color:"rgb(27, 181, 252)"}}/> : <VisibilityIcon  style={{color:"rgb(27, 181, 252)"}}/> }</span>
-                        </div>
-                </div>
-                <span className='container4-register'>
-                    <button type='submit' className='button1'>Sign Up</button>
-                    <button type='button' className='button2' onClick={redirect}>Sign In</button>
-                </span>
-            </form>
         </div>
     )
 }
